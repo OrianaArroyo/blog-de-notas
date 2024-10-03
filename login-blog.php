@@ -1,6 +1,6 @@
 <?php
 session_start();
-require_once './db-blog/db-blog.php';
+require_once './db-blog.php';
 // Optener los datos del formulario por POST
 if (
     isset($_POST['user']) && !empty($_POST['user'])
